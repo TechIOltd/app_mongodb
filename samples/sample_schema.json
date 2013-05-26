@@ -1,0 +1,2 @@
+{ "_id" : { "$oid" : "51a28716094cf67a54cd1848" }, "cid" : "201's cid from mongo", "num" : 201 }
+{ "_id" : { "$oid" : "519b9013c8e984a2bb9470d8" }, "cid" : "another cid from mongo", "num" : 200 }
