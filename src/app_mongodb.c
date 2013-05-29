@@ -1,10 +1,8 @@
  /*
  * app_mongodb.c
  *
- * Copyright 2013 TechIO <info@techio.com>
+ * Author: Sokratis Galiatsis [sokratisg] <sokratis@techio.com>
  * 
- * Coding is based on cdr_mongodb by Flavio [FlaPer87] Percoco Premoli <flaper87@flaper87.org>
- *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License v2 as published
  * by the Free Software Foundation.
@@ -22,9 +20,9 @@
  *
  * \brief Mongodb based CallerID retriever
  *
- * \author TechIO [TechIOltd] <info@techio.com>
+ * \author Sokratis Galiatsis [sokratisg] <sokratis@techio.com>
  *
- * \arg none, caller-id is retrieved automatically from channel
+ * \arg none, callerid is retrieved automatically from channel
  * \ingroup addons
  */
 
