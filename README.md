@@ -2,22 +2,23 @@ app_mongodb
 ===========
 
 MongoDB Interface for Asterisk PBX
+
 Author: Sokratis Galiatsis <sokratis@techio.com>
 
 BUILDING
 
-1-) Download, build and install mongo-c-driver: http://github.com/mongodb/mongo-c-driver
-2-) make
+1) Download, build and install mongo-c-driver: http://github.com/mongodb/mongo-c-driver
+2) make
 
 INSTALLING
 
-1-) copy build/app_mongodb.so into Asterisk modules folder (lib/asterisk/modules)
+1) copy build/app_mongodb.so into Asterisk modules folder (lib/asterisk/modules)
 
 USAGE
 
-1-) Create a config file. See samples/app_mongodb.conf
-2-) Setup a new mongoDB db/collection. See samples/sample_schema.json
-3-) Add: load => app_mongodb.so in the modules.conf asterisk file
+1) Create a config file. See samples/app_mongodb.conf
+2) Setup a new mongoDB db/collection. See samples/sample_schema.json
+3) Add: load => app_mongodb.so in the modules.conf asterisk file
 
 LICENSING
 
