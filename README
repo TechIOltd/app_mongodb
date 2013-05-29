@@ -17,7 +17,12 @@ USAGE
 
 1) Create a config file. See samples/app_mongodb.conf
 2) Setup a new mongoDB db/collection. See samples/sample_schema.json
-3) Add: load => app_mongodb.so in the modules.conf asterisk file
+3) Add app_mongodb() in your dialplan prior the Dial() priority. eg:
+[macro-dial]
+exten => s,1,app_mongodb()
+exten => s,n,Dial(${ARG1})
+exten => s,n,Hangup
+4) Add: load => app_mongodb.so in the modules.conf asterisk file
 
 LICENSING
 
